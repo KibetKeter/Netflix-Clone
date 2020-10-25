@@ -1,5 +1,6 @@
 .row {
   margin-left: 20px;
+  color: white;
 }
 .row__posters {
   display: flex;
@@ -25,4 +26,9 @@
 }
 .row__posterLarge:hover {
   transform: scale(1.11);
+}
+.banner__button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
 }
